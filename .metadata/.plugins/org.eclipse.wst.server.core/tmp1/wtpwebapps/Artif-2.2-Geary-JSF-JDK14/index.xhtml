@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"> 
+	<h:head>
+		<title>index.xhtml</title> 
+	</h:head>
+	<h:body> <h:form>
+		<h3>JSFs have an MVC app model with faces replacing JSP for the View.</h3>
+		<h3>--</h3>
+		<h3>Please enter your name and password.</h3> 
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><h:inputText value="#{user.name}"/></td>
+			</tr> 
+			<tr>
+				<td>Password:</td>
+				<td>
+					<h:inputSecret value="#{user.password}"/>
+					<!-- equivalent to <input type="text" jsfc="h:inputText" value="#{user.name}"/> -->
+				</td> 
+			</tr>
+		</table>
+		<p>
+			<h:commandButton value="Login" action="welcome"/>
+		</p> 
+	</h:form>
+	<!-- action="welcome" refers directly to the welcome.xhtml page -->
+	<!-- This app uses JSF-2.0 and therefore does not need a faces-config.xml -->
+</h:body> </html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="my-dwp" name="my-dwp" path="/Users/joosthuizen/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/my-dwp" type="j2ee"/>
+</server>

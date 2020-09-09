@@ -1,0 +1,117 @@
+dev-related installations on mac book pro
+   - https://bit.ly/jo-eclipse-installs
+   
+INSTALL JDK
+Preferences / java / Installed JREs / Add 
+   - e.g. /Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home
+   
+INSTALL SERVER
+      
+
+CODE STRUCTURE
+
+CLASS
+Class are automatically given 'default' constructors 
+    - they do not have to be coded.
+
+
+FILE / COMPILATION UNIT
+A file can only have one public class (i.e. a class with a main() method).
+It can also have inner classes and static classes.
+
+PACKAGE
+A logical grouping of files for collective importing.
+A package can have more than one file containing a class with a main() method.      
+
+PROJECT
+A logical grouping of package to meet some application requirement.
+
+LIBRARY
+A collection of jars across many folders.
+Each project has allocated libraries.
+
+Use either oracle jars/libraries OR apache libraries, not both!
+   - for example, for apache myfaces, ensure Suns' RI implementation, 
+     jsf-api.jar and jsf-impl.jar are not in the the classpath or in one 
+     of your container’s shared library directories 
+     (e.g., common/lib or shared/ lib for Tomcat).
+     
+https://bit.ly/jo-myfaces-jars-w-descriptions
+
+----------------------------------------------------------------------------
+
+CHRONOLOGY
+
+SERVLET DEVELOPMENT - no separation of concerns
+Classical servlet programming mixes HTML with Java code, 
+which leads to complex development and maintainability concerns 
+for both web designers and developers.
+
+JSP - attempted to separate html from Java, but it didn't really succeed.
+
+Plethora of MVC frameworks (Struts, Spring MVC, Strips, Tapestry, & many others) 
+- separation of concerns at the high price of increased complexity and 
+  no standardisation
+  
+JSF - JavaServer™ Faces is the well-established standard for web-development 
+frameworks in Java. The standard is based on the MVC paradigm, but is 
+additionally to most web-frameworks also component-based and event-oriented.
+In a nutshell, it is a standardized, component-based, event-driven 
+framework for Java web applications with a strong focus on rapid development 
+and best practices. It allows web designers or UI engineers to create simple 
+templates for a given application. It allows Java developers to write the 
+backend code independently of the web tier. And lastly, it allows third-party 
+vendors to develop tools and component libraries that are compliant with the 
+specification. 
+
+JSF components can be embedded inside JSP pages and can render the appropriate 
+markup for HTML or any other output for which a render kit is provided. 
+In other words, the render kit transforms the JSF markup into markup that is 
+suitable for the client, such as HTML for a web browser.
+
+For historical reasons, there are several different mechanisms for authoring 
+JSF pages. JSF 1.x was based on JavaServer Pages (JSP), which caused some 
+unpleasant technical problems. However, JSF allows programmers to replace 
+the “view handler” that pro- cesses JSF pages. The Facelets project did just 
+that, providing better error messages, a mechanism for factoring out common 
+page parts, and an easier mechanism for writing your own components. 
+Facelets has become a part of JSF 2.0, and we use it in this book.
+When you author a Facelets page, you add JSF tags to an XHTML page. 
+An XHTML page is simply an HTML page that is also proper XML. 
+We use the extension .xhtml for Facelets pages.
+
+You can still use JSP in JSF 2.0, but we do not recommend it. 
+One disadvantage is that you can get very cryptic error messages if a page 
+has a syntax error. More importantly, some JSF 2.0 features 
+(such as templating) only work with Facelets.
+
+JSF-2.0 no longer requires a faces-config.xml
+
+JSF uses namespaces - this is how they are set up-> https://bit.ly/jo-namespaces
+Precede all HTML elements with h. The following important HTML elements change:
+- <h:inputText>
+- <h:inputSecret>
+- <h:commandButton>
+Namespace f corresponds to facelet elements like <f:view>.
+
+WAR FILE STRUCTURE
+https://bit.ly/jo-jsf-war
+
+JSF LIFE CYCLE  
+The key differentiating factor between JSF and other frameworks like 
+Spring MVC, Struts, and Stripes is the life cycle (see Figure 1-3). JSF has 
+a very different request processing life cycle with six phases:
+
+1. Restore view.
+2. Apply request values; process events.
+3. Process validations; process events.
+4. Update model values; process events.
+5. Invoke application; process events.
+6. Render response.
+
+https://bit.ly/jo-jsf-life-cycle (diagram)
+
+
+
+
+

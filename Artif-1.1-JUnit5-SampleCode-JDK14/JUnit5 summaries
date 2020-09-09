@@ -1,0 +1,32 @@
+// see chrome bookmarks under devops/testing
+//
+// JUnit Jupiter extension model (a SINGLE, COHERENT CONCEPT)
+//    -> this is merely a marker interface (but v important)
+//    -> https://junit.org/junit5/docs/current/user-guide/#extensions
+//
+// User guide 
+//    -> https://junit.org/junit5/docs/current/user-guide/
+//
+// JUnit platform test kit
+//    -> https://junit.org/junit5/docs/current/user-guide/#testkit
+//
+// Writing tests 
+//    -> https://junit.org/junit5/docs/current/user-guide/#writing-tests
+// Its mandatory to have test class names to follow regex pattern ^.*Tests?$. 
+// It means that test class names MUST end with Test or Tests. 
+// e.g. UserMgmtTests, DeviceMgmtTest etc.
+//
+// Running tests
+// Platform = JavaUnitPlatform.class
+//    -> See TestSuite class for details
+//    -> https://howtodoinjava.com/junit5/junit5-test-suites-examples/#project-structure
+//    -> https://junit.org/junit5/docs/current/user-guide/#running-tests
+// 
+// JUnit Jupiter Gradle, Maven, Ant starter kits
+//    -> https://github.com/junit-team/junit5-samples/tree/r5.6.2/junit5-jupiter-starter-gradle
+//    -> https://github.com/junit-team/junit5-samples/tree/r5.6.2/junit5-jupiter-starter-maven
+//    -> https://github.com/junit-team/junit5-samples/tree/r5.6.2/junit5-jupiter-starter-ant
+
+// Support 
+//    -> https://gitter.im/junit-team/junit5
+//    -> https://stackoverflow.com/questions/tagged/junit5

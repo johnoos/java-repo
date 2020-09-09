@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+/Users/joosthuizen/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1174800987.index
+/Proj-JSF-2-JSF-example-from-apache-myfaces/src
+/Users/joosthuizen/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1748908223.index
+/ProjectJSFGrassRoots2.0/src
+/Users/joosthuizen/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1488152831.index
+/de.vogella.jsf.first/src
+/Users/joosthuizen/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3560604638.index
+/Proj-JSF-2-JSF&JSP-example-from-apache-myfaces/src
+/Users/joosthuizen/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1081733721.index
+/JSFGrassRoots2.3/src
+/Users/joosthuizen/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1684618446.index
+/genericjmsra/samples/tibcosample/ejb

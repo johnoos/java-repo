@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+/Users/joosthuizen/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+607596204.index
+2092654228.index
+1101706095.index
+1425174068.index
+2213474068.index
+2914019666.index
+71083501.index
+1414875850.index
+851447900.index
+502121602.index
+3664740021.index
+1446809687.index
+2767901308.index
+3899919348.index
+3958940865.index
+2398009281.index
+1056625678.index
+847771606.index
+1346732747.index

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;SayHelloPage.java&apos; to &apos;Proj-JSF-2-JSF&amp;JSP-example-from-apache-myfaces/src/demo&apos;&#x0A;- Original project: &apos;Proj-JSF-2-JSF&amp;JSP-example-from-apache-myfaces&apos;&#x0A;- Destination element: &apos;Proj-JSF-2-JSF&amp;JSP-example-from-apache-myfaces/src/demo&apos;&#x0A;- Original element: &apos;SayHelloPage.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;demo" element1="/src&lt;{SayHelloPage.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1593184751647" units="1" version="1.0"/>
+</session>

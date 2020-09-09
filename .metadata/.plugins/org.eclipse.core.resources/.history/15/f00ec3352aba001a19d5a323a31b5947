@@ -1,0 +1,63 @@
+Maven version:
+mvn -v
+
+Maven command help:
+mvn -h
+
+Build local repository / Where is the local repository?:
+mvn help:evaluate -Dexpression=settings.localRepository
+
+DEPENDENCY SCOPE
+compile: Dependencies with the compile scope are available in the class path 
+	in all phases on a project build, test, and run. This is the default scope.
+provided: Dependencies with the provided scope are available in the class path 
+	during the build and test phases. They don’t get bundled within the 
+	generated artifact. Examples of dependencies that use this scope include 
+	Servlet api, JSP api, and so on.
+runtime: Dependencies with the runtime scope are not available in the 
+	class path during the build phase. Instead they get bundled in the 
+	generated artifact and are available during runtime.
+test: Dependencies with the test scope are available during the test phase. 
+	JUnit and TestNG are good examples of dependencies with the
+	test scope.
+
+JAVA PROJECT FILE STRUCTURE	
+https://bit.ly/jo-mvm-java-proj-structure	
+- root name typically matches generated artifact name
+- src - source code, property files (all you want to version control in Git
+          * https://bit.ly/jo-mvn-src-recomm-structure
+- target - class files and other generated files - dont commit to Git
+- pom.xml - dependencies and plug-ins (must be at root of project)
+
+VERSIONING
+<major-version>.<minor-version>.<incremental-version>-qualifier
+
+the major, minor, and incremental values are numeric, and the qualifier can 
+have values such as rC, alpha, beta, and snapshot. some examples that follow 
+this convention are 1.0.0, 2.4.5-snapshot, 3.1.1-rC1, and so forth.
+The SNAPSHOT qualifier in the project’s version carries a special meaning. 
+it indicates that the project is in a development stage. When a project uses 
+a snapshot dependency, every time the project is built, Maven will fetch and 
+use the latest snapshot artifact.
+Most repository managers accept release builds only once. However, when you 
+are developing an application in a continuous integration environment, you 
+want to build often and push your latest build to the repository manager. thus, 
+it is the best practice to suffix your version with snapshot during development.
+
+LIFE CYCLE, MADE UP OF PHASES AND GOALS
+Goals are packaged in plug-ins
+LIFE     GOAL       COMMAND               COMMENT
+CYCLES                  <plugin:goal> 
+-------  ---------  --------------------  -------------------------------------
+         validate
+default  compile    mvn compiler:compile  compile
+         test 	    mvn                   test 
+         package    mvn package?          package
+         install                          into local repo as dep'cy proj
+         deploy                           to remote repo's as dep'cy proj 
+clean    clean	    mvn clean:clean       cleans the target folder and artifact
+
+site                                      generation of docn and site gen 
+
+	
+	

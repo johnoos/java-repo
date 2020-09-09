@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592474257560_3" label="dynamic web apps (servlet-based)" name="dynamic web apps (servlet-based)"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592474369282_4" label="java apps" name="java apps">
+<item elementID="=Artif-1.0-java-app-HelloWorld-JDK14" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592474826194_6" label="json" name="json"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592475377500_7" label="enterprise" name="enterprise"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592475453556_8" label="ajax" name="ajax"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592486837610_9" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592486837632_10" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1591733539332_2" label="Window Working Set" name="Aggregate for window 1591733539331"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592475597717_9" label="Multiple Working Sets" name="Aggregate:dynamic web apps (servlet-based):java apps:">
+<workingSet IMemento.internal.id="dynamic web apps (servlet-based)"/>
+<workingSet IMemento.internal.id="java apps"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592477195019_11" label="Multiple Working Sets" name="Aggregate:java apps:json:">
+<workingSet IMemento.internal.id="java apps"/>
+<workingSet IMemento.internal.id="json"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592477210313_12" label="Multiple Working Sets" name="Aggregate:ajax:dynamic web apps (servlet-based):enterprise:java apps:json:">
+<workingSet IMemento.internal.id="ajax"/>
+<workingSet IMemento.internal.id="dynamic web apps (servlet-based)"/>
+<workingSet IMemento.internal.id="enterprise"/>
+<workingSet IMemento.internal.id="java apps"/>
+<workingSet IMemento.internal.id="json"/>
+</workingSet>
+<mruList name="dynamic web apps (servlet-based)"/>
+<mruList name="ajax"/>
+<mruList name="java apps"/>
+</workingSetManager>

@@ -1,0 +1,21 @@
+ECLIPSE SETUP
+JUnit source downloaded to ~/downloaded-source-archives
+
+ECLIPSE 'LAYERS'
+1. workbench - this is the UI view
+2. workspace - this is the model that contains the resources (projects, 
+   folders, files)
+3. disk directory - this is the location on disk containing a subset of 
+   the model folders and files
+
+SHORTCUTS
+- ctrl-o - show inherited methods
+- F3 show type
+- F4 show type hierarchy
+
+
+   
+
+
+
+   

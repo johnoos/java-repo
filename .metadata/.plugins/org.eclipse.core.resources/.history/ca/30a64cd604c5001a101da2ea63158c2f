@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Artif-2.1-wadia-servlet-JDK14-OK">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="java-output-path" value="/Artif-2.1-wadia-servlet-JDK14-OK/build/classes"/>
+        <property name="context-root" value="Artif-2.1-wadia-servlet-JDK14-OK"/>
+    </wb-module>
+</project-modules>

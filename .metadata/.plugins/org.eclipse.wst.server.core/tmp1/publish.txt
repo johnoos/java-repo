@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Jul 13 20:26:07 SAST 2020
+org.eclipse.jst.jee.server\:/binary\:/Users/joosthuizen/eclipse-workspace/Artif-3.0-Geary-MyFaces/WebContent/WEB-INF/lib/myfaces-bundle-2.3.6.jar=WEB-INF/lib/myfaces-bundle-2.3.6.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/joosthuizen/eclipse-workspace/Artif-3.0-Geary-MyFaces/WebContent/WEB-INF/lib/myfaces-impl-2.3.6.jar=WEB-INF/lib/myfaces-impl-2.3.6.jar

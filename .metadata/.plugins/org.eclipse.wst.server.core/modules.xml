@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:de.vogella.jsf.first" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Artif-2.2-Geary-JSF-JDK14" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Artif-3.0-Geary-MyFaces" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Proj-JSF-2-Geary-JSF-JDK11-WF19" serverId="WildFly 19"/>
+  <module moduleId="org.eclipse.jst.jee.server:TinyCalculator"/>
+  <module moduleId="org.eclipse.jst.jee.server:my-dwp" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JSFFaceletsTutorial" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Proj-JSF-2-Geary-JSF-Wildfly20-JDK11" serverId="WildFly 19"/>
+  <module moduleId="org.eclipse.jst.jee.server:Proj-2.2-Geary-JSF-JDK11-WF19-OK" serverId="WildFly 19"/>
+  <module moduleId="org.eclipse.jst.jee.server:Artif-2.1-wadia-servlet-JDK14" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Proj-JSF-1-wadia-servlet-Wildfly20-JDK11" serverId="WildFly 19"/>
+  <module moduleId="org.eclipse.jst.jee.server:Proj-2.1-wadia-servlet-JDK11-WF19-OK" serverId="WildFly 19"/>
+  <module moduleId="org.eclipse.jst.jee.server:Artif-2.2-Geary-JSF-JDK11-WF19-OK" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Proj-2.2-Geary-JSF-JDK11-WF19" serverId="WildFly 19"/>
+</modules>

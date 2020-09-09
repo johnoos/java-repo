@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/joosthuizen/eclipse-workspace/mvn-2-com.vogella.build.maven.simple"/>
+			<item value="/Users/joosthuizen/eclipse-unimported-projects/Practical-JSF-Java-EE-8-master/TinyCalculator"/>
+			<item value="/Users/joosthuizen/eclipse-workspace/HelloWorld"/>
+			<item value="/Users/joosthuizen/eclipse-workspace/jakarta-ee-tut"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.vogella.maven.quickstart"/>
+			<item value="com.vogella.javaweb.mavenexample"/>
+			<item value="de.muellerbruel.quickstart"/>
+			<item value="de.muellerbruel.tinycalculator"/>
+			<item value="main.webapp.TinyCalculator"/>
+		</list>
+		<list key="groupId">
+			<item value="com.vogella.maven"/>
+			<item value="com.vogella.javaweb"/>
+			<item value="de.muellerbruel"/>
+			<item value="main.webapp"/>
+		</list>
+		<list key="artifactId">
+			<item value="quickstart"/>
+			<item value="mavenexample"/>
+			<item value="TinyCalculator"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[groupId].[artifactId]"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.0-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="488"/>
+		<item key="x" value="400"/>
+		<item key="y" value="75"/>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="com.vogella.build.maven.simple"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="com.vogella.build.maven.simple"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>
